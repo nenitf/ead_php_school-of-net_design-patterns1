@@ -2,7 +2,7 @@
 
 namespace SON\Db\QueryBuilder;
 
-class Sql implements Startegy
+class Sql implements Strategy
 {
     public function table(string $table):Strategy
     {
